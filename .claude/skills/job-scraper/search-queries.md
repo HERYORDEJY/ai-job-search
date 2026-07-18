@@ -5,15 +5,23 @@
      Denmark-specific and are not used for this search. Queries below rely on
      LinkedIn and Google site-searches against remote-first job boards instead. -->
 
+## Installed portal CLIs (primary for `/scrape`)
+
+`/scrape` discovers every portal skill under `.agents/skills/*/SKILL.md` and runs its CLI first. Shipped country-agnostic CLIs include `linkedin-search` and `freehire-search`; Danish demos and any skill you add with `/add-portal` are included the same way. You do **not** need a matching `site:` line below for those CLIs to run.
+
+The `site:` query templates in this file are the **WebSearch fallback** — for portals without a CLI, company career pages, or when a CLI fails.
+
 ## Search Sites
 
-Primary (remote-first job boards):
-- **linkedin.com/jobs** - filter by "Remote"
+Primary (remote-first job boards - scaffold one with `/add-portal`):
+- **linkedin.com/jobs** - LinkedIn job listings (filter: "Remote"); also covered by `linkedin-search` CLI
 - **weworkremotely.com** - remote-only listings
 - **remoteok.com** - remote-only listings, strong on dev roles
 - **himalayas.app** - remote-only listings
 - **wellfound.com** (formerly AngelList Talent) - startup roles, many remote
 - **arc.dev** - remote developer-focused board
+- **indeed.com**
+- **glassdoor.com**
 
 Secondary (company career pages via Google):
 - Direct Google searches with `site:` filters for known target companies
