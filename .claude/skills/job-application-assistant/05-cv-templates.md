@@ -105,12 +105,13 @@ Write 5-7 lines that function as an "elevator pitch": a concise, compelling intr
 
 **Create 2-3 profile statement templates for your main role types:**
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For React Native / Mobile Developer roles:**
+> React Native developer with 5+ years of experience building and shipping high-performance, cross-platform mobile applications for iOS and Android. Focused on clean architecture, measurable performance gains, and close collaboration with product, design, and backend teams to ship features that hold up in production. Comfortable owning features end-to-end, from GraphQL/REST integration through release to the App Store and Google Play.
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Senior / Lead Mobile Engineer roles:**
+> Senior React Native engineer with 5+ years shipping production mobile apps across fintech, social, and consumer domains. Brings architectural judgment, performance-tuning experience (state management, rendering optimization, caching strategies), and a track record of mentoring and code review, alongside hands-on ownership of features from design handoff to release.
+
+<!-- Both templates are drafts based on documents/setup data - tailor per posting at /apply time, per the standard workflow. -->
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

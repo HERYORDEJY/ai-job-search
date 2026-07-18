@@ -10,30 +10,37 @@ Keep answers to 1-2 minutes. Be specific. End with what you learned or would do 
 
 ## Ready-Made STAR Examples
 
-<!-- These are populated by /setup from your actual experience. Below are templates showing the format. -->
+<!-- Populated by /setup from CV/LinkedIn. S/T/A are stubs inferred from bullet points - flesh out with real specifics before relying on these in an interview. R is filled in where a number was given in the source documents. -->
 
-### 1. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT - what was happening, what was the problem]
-**T:** [YOUR RESPONSIBILITY - what you specifically needed to do]
-**A:** [WHAT YOU DID - specific actions, tools, methods]
-**R:** [OUTCOME - measurable results, adoption, impact]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 1. SeamlessHR performance optimization (React Query / state management)
+**S:** [FLESH OUT - what was slow or inefficient before the optimization work]
+**T:** Improve application performance and reliability as part of maintaining SeamlessHR's React Native app.
+**A:** Refactored code strategically and implemented React best practices; introduced React Query to manage server state, caching, pagination, and synchronization for critical features.
+**R:** 15% improvement in load times and smoother user interactions.
+**Use for:** "Tell me about a time you improved performance", "How do you approach optimization?"
 
-### 2. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 2. American Garage Inc mobile responsiveness + mentoring
+**S:** [FLESH OUT - what prompted the responsiveness work, team context]
+**T:** Improve mobile application performance while supporting junior developers on the team.
+**A:** Optimised React Native code and state management strategies; guided junior developers through mentorship and code review to maintain clean architecture and coding standards.
+**R:** 20% improvement in application responsiveness; improved stability and experience for over 10,000 active users.
+**Use for:** "Tell me about a time you mentored someone", "Describe a performance improvement you drove", "How do you balance individual delivery with helping others?"
 
-### 3. [PROJECT_NAME] ([SKILL_DEMONSTRATED])
-**S:** [CONTEXT]
-**T:** [YOUR RESPONSIBILITY]
-**A:** [WHAT YOU DID]
-**R:** [OUTCOME]
-**Use for:** "[QUESTION_TYPE_1]", "[QUESTION_TYPE_2]"
+### 3. HumDov - independent project, real-time features at scale
+**S:** [FLESH OUT - motivation for building HumDov, timeline, team size (solo or with others?)]
+**T:** Build and ship a cross-platform social networking app for a specific community from scratch.
+**A:** Built with React Native and Expo; implemented real-time chat and content-sharing functionality end-to-end (concept through App Store/Google Play release).
+**R:** Over 5,000 downloads across both platforms.
+**Use for:** "Tell me about a side project", "Describe something you built end-to-end", "Why should we trust you with ambiguous scope?"
 
-<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. -->
+### 4. Lara's Kitchen / EasyGo - payments and transactional reliability
+**S:** [FLESH OUT - specific technical challenges in handling payments/transactions reliably]
+**T:** Build reliable, secure transactional flows (food ordering payments for Lara's Kitchen; money transfers and bill payments for EasyGo) end-to-end in React Native.
+**A:** Integrated secure payment gateways and real-time order tracking (Lara's Kitchen); built robust security features for financial transactions (EasyGo).
+**R:** Lara's Kitchen processes 100+ orders daily; EasyGo handles 500+ daily transactions.
+**Use for:** "Tell me about working with sensitive/financial data", "How do you approach reliability in a critical flow?"
+
+<!-- Add more STAR examples as needed. Aim for 4-6 covering different competencies. Consider adding one for the Node.js/backend learning journey if targeting full-stack-leaning roles. -->
 
 ## Common Tough Questions
 

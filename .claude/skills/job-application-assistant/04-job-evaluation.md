@@ -1,7 +1,5 @@
 # Job Evaluation Framework
 
-<!-- SETUP: Skill match areas and career goals are personalized by running /setup -->
-
 ## Scoring Dimensions
 
 Evaluate each job posting against these five dimensions:
@@ -16,9 +14,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** React Native (CLI & Expo, Expo Router, OTA/EAS updates), TypeScript (strict mode, generics, discriminated unions), JavaScript (ES6+), React.js, GraphQL, RESTful APIs, React Query/TanStack Query, iOS & Android development, Jest & Detox testing, Firebase (Cloud Messaging, Crashlytics, App Distribution)
+**Moderate match areas:** Redux, Zustand, MMKV, CI/CD (CircleCI, Jenkins), Figma-to-UI implementation, React Native Reanimated
+**Weak match areas:** Backend/server-side development (Node.js - actively learning, not yet professional experience), cloud infrastructure (AWS/GCP/Azure), native Swift/Kotlin development
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +28,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** React Native mobile app development (iOS & Android), shipping apps to Google Play and App Store, fintech/payments apps (EasyGo, Lara's Kitchen), social/community apps (HumDov), health & wellness apps (Gastronomics)
+**Moderate:** React.js web frontend development, mentoring/code review (American Garage), 5+ years general software development
+**Entry-level:** Backend/full-stack roles, engineering management/team lead roles (no formal lead title yet, but "Senior" title held briefly at Ajeoba Agro Exchange)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -44,12 +42,13 @@ Does the role and company culture match the behavioral profile?
 | 40-59 | Some friction areas |
 | 0-39 | Significant culture mismatch |
 
-**Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
+**Red flags to research:** Toxic or political team culture, micromanagement, poor/absent leadership, department disorganization, work dominated by maintenance over development. These are explicit candidate deal-breakers (see below), not just soft preferences - weight culture research accordingly. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+The candidate is **open to fully remote roles only**.
+- Fully remote: PASS
+- Hybrid / occasional office visits: FLAG (discuss with user - candidate strongly prefers full-remote, may still consider for the right role)
+- On-site required / requires relocation: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
 
 ### 5. Career Alignment & Motivation (0-100)
@@ -63,21 +62,23 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Continue growing in React Native / mobile development
+- Move toward Senior / Lead mobile engineering roles
+- Longer-term (not immediate): transition toward backend/full-stack using Node.js - do not weight this heavily yet, it's a future direction, not a current job requirement
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: architectural ownership, performance optimization, cross-platform feature delivery, mentoring
+- Tasks that drain: not yet established - ask the user if a specific role raises this
+- Non-task factors: leadership style, department culture, degree of autonomy - **weight heavily**, given explicit deal-breakers around toxic culture and micromanagement
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: Currently employed (Parthian Partners) - not searching out of urgency
+- **Flexibility**: Full-remote only, no relocation or on-site/hybrid requirement
+- **Professional development**: Actively upskilling toward backend/full-stack (Node.js) for a future pivot; roles that offer exposure to backend/API design are a bonus but not a current requirement
 
 ### 6. Salary Benchmark (Optional)
+
+Candidate has no fixed salary baseline - open to negotiation and will discuss specifics directly with recruiters/employers. Do not block an evaluation on salary data; skip this section unless the posting states a range worth flagging.
 
 If the salary lookup tool is configured (`salary_data.json` exists), look up the company:
 ```

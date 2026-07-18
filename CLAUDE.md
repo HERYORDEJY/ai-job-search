@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Ayodeji Yusuf Oyebode
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Ayodeji Yusuf Oyebode, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,65 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Ayodeji Yusuf Oyebode
+- **Location:** Open to fully remote opportunities (city/country shared with recruiters directly upon contact)
+- **Languages:** English
+- **Status:** Currently employed - Mobile Application Developer at Parthian Partners
+- **LinkedIn headline:** "Senior Software Developer"
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **Bachelor of Engineering in Electrical and Electronics Engineering** (2015-2021) - University of Ilorin, Ilorin, Nigeria
+  - Topics: Power systems, transformer protection/control, system protection relay operations
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+<!-- Full history, including short-tenure and overlapping/freelance roles, lives in .claude/skills/job-application-assistant/01-candidate-profile.md -->
+- **Mobile Application Developer** (Nov 2025 - Present) - **Parthian Partners** (Lagos, Nigeria)
+  - Took ownership of key parts of the i-Invest mobile application, contributing to scalable feature delivery, performance improvements, and overall application stability
+  - Collaborated closely with product, design, backend, and QA teams across iOS and Android
+  - Integrated and managed API-driven features, ensuring efficient data handling and consistent production stability
+- **Mobile Application Developer** (Aug 2024 - Aug 2025) - **SeamlessHR** (Lagos, Nigeria)
+  - Maintained high-quality React Native applications with pixel-perfect UI implementation from Figma
+  - Integrated GraphQL APIs and implemented React Query for server state, caching, and synchronisation
+  - Improved load times by 15% through strategic code refactoring
+- **Frontend Developer** (Aug 2022 - Dec 2023) - **American Garage Inc** (USA)
+  - Improved application responsiveness by 20% for a system serving 10,000+ active users
+  - Guided junior developers through mentorship and code review
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** React Native (CLI & Expo), TypeScript, JavaScript (ES6+), React.js, GraphQL, RESTful APIs, React Query
+- **Secondary:** Redux, Zustand, Firebase, CI/CD (CircleCI, Jenkins), Jest, Detox
+- **Domain:** Mobile app publishing (Google Play & App Store), fintech/payments, social/community apps, health & wellness
+- **Software:** Git, GitHub, Google Play Console, Apple App Store Connect, Postman
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+None currently on file.
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+None.
 
 ### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+None.
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+<!-- No formal assessment on file - see 02-behavioral-profile.md for inferred signals, labeled as such -->
+- **Results/ownership-oriented** - Frames past work in terms of measurable outcomes (performance %, user counts, adoption)
+- **Cross-functional collaborator** - Comfortable working across product, design, backend, and QA in Agile teams
+- **Strengths:** Shipping production mobile apps end-to-end, performance optimization, cross-functional collaboration
+- **Growth areas:** Backend/full-stack depth (actively building Node.js skills toward a future pivot)
+- **Thrives in:** Fully remote, async-friendly environments with supportive leadership and clear ownership
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Owning features end-to-end, from architecture through release
+- Performance optimization and clean, maintainable mobile architecture
 
 ### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+- Fintech / payments: companies building consumer-facing financial products
+- Consumer mobile apps: social, health & wellness, e-commerce/delivery
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Not fully remote (on-site or relocation-required roles)
+- Toxic or political team culture, micromanagement, poor/absent leadership
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)
